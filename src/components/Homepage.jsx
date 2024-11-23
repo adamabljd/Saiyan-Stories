@@ -10,6 +10,7 @@ export const Homepage = ({ selectedList }) => {
     const [currentTime, setCurrentTime] = useState("0:00");
     const audioRef = useRef(chala);
 
+
     const togglePlayPause = () => {
         if (isPlaying) {
             audioRef.current.pause();
@@ -45,7 +46,7 @@ export const Homepage = ({ selectedList }) => {
     }, []);
 
     return (
-        <div className="h-full p-1 bg-primary flex flex-col items-center space-y-3">
+        <div className="h-full w-full md:p-1 bg-primary flex flex-col items-center space-y-3 overflow-hidden">
             <audio ref={audioRef} src={chala} preload="auto"></audio>
 
             <div className="flex space-x-6 justify-center items-center">
@@ -57,12 +58,12 @@ export const Homepage = ({ selectedList }) => {
                 </button>
                 <span className="text-third font-dragonL font-bold text-lg">{currentTime}</span>
             </div>
-            <div className="flex flex-row justify-between space-x-10">
-                <div className="bg-black w-96 h-96"></div>
+            <div className="flex flex-row justify-between md:space-x-10">
+                <div className="hidden md:block bg-black w-96 h-96"></div>
                 <div className="w-fit">
                     {selectedList === "Dragon Ball" ? <DragonBallList /> : <DragonBallZList />}
                 </div>
-                <div className="bg-black w-96 h-96"></div>
+                <div className="hidden md:block bg-black w-96 h-96"></div>
             </div>
         </div>
     )

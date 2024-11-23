@@ -6,7 +6,7 @@ function App() {
   const [selectedList, setSelectedList] = useState("Dragon Ball");
 
   return (
-    <div className="bg-primary">
+    <div className="bg-primary w-full h-full">
       <Navbar selectedList={selectedList} setSelectedList={setSelectedList} />
       <Homepage selectedList={selectedList} />
     </div>

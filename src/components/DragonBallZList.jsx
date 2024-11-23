@@ -3,21 +3,20 @@ import episodes from "../assets/DragonBallZEpisodes.json";
 import { useEffect, useState } from "react";
 
 export const DragonBallZList = () => {
-    const [visibleCards, setVisibleCards] = useState([]); // Track visible cards
+    const [visibleCards, setVisibleCards] = useState([]);
 
     useEffect(() => {
         let delay = 0;
-        // Gradually make each card visible
         episodes.forEach((_, index) => {
             setTimeout(() => {
                 setVisibleCards((prev) => [...prev, index]);
             }, delay);
-            delay += 200; // Delay each card's animation
+            delay += 200;
         });
     }, []);
 
     return (
-        <div className="h-fit w-fit p-4 bg-fourth shadow-lg rounded-xl grid grid-cols-2 gap-4">
+        <div className="h-fit w-fit p-4 bg-fourth shadow-lg md:rounded-xl grid grid-cols-2 gap-4">
             {episodes.map((episode, index) => (
                 <div
                     key={episode.id}
