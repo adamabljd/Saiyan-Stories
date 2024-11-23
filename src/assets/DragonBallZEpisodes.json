@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "The New Threat",
+    "summary": "With no new battles to fight, Goku has been living a quiet life in the countryside with his wife Chi-chi and their son Gohan! While Goku makes plans to spend a happy day with friends on Master Roshi's island, a powerful new threat is on its way to Earth. And the arrival of this sinister alien could spell disaster for Goku and his friends!",
+    "image": "/path/to/image1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Reunions",
+    "summary": "Goku and Gohan attend a reunion on Master Roshi's island, where Goku introduces his son to all of his old friends. The smiles quickly fade, however, as an unexpected visitor lands on the island, and for Goku the day becomes a reunion of a different kind. A powerful alien has arrived. It's Raditz, Goku's evil older brother!",
+    "image": "/path/to/image2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Unlikely Alliance",
+    "summary": "Raditz has kidnapped Gohan! And unless Goku agrees to forsake his friends and the people of Earth by joining the sinister Saiyan, he may never see his son again! All hope is not lost, however, as a second uninvited guest arrives on the island and Goku forges an unlikely alliance!",
+    "image": "/path/to/image3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Piccolo's Plan",
+    "summary": "The situation looks bleak for Goku and Piccolo, as Raditz easily deflects every attack they send his way. But Piccolo may have a way to stop the sinister Saiyan. He's perfected a powerful new attack... the Special Beam Cannon! There's only one problem. Piccolo needs time to gather the energy for the blast, which means Goku will have to last for five minutes against Raditz alone!",
+    "image": "/path/to/image4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Gohan's Rage",
+    "summary": "As Goku takes blow after punishing blow from the evil Raditz, Gohan is able to watch no longer! The young boy's rage unlocks an awesome power sleeping within him, and he unleashes a mighty attack that not even Radtiz can resist! But as quickly as Gohan's power appears, it vanishes. And when Raditz prepares to strike back, Goku must make the ultimate sacrifice to save his son!",
+    "image": "/path/to/image5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "No Time Like the Present",
+    "summary": "With Raditz defeated and Goku gone from this world, the surviving Z-Fighters must begin preparing for the arrival of two more Saiyans who will reach Earth in one year's time. Piccolo takes Gohan into the wild for a severe training program, in the hope that his hidden power will be revealed. Meanwhile, Goku embarks on a new adventure in the next world, as he must travel the endless miles of Snake Way to receive training from the legendary King Kai!",
+    "image": "/path/to/image6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Day 1",
+    "summary": "Gohan begins his first day of Piccolo's training. Alone in the wilderness, he must quickly learn to take care of himself. But that isn't easy when he's tired, hungry -- and being chased by hungry dinosaurs! If Gohan's first day is this dangerous, how will he ever survive for the second?",
+    "image": "/path/to/image7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Gohan Goes Bananas!",
+    "summary": "Krillin receives a startling message. Korin wants him to gather Yamcha, Tien, and Chiaotzu and report for special training! And if that weren't enough, he and Roshi still have to find a way to tell Chichi what's happened to Goku and her son. Meanwhile, Gohan's training causes him to undergo a shocking transformation!",
+    "image": "/path/to/image8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Strangest Robot",
+    "summary": "Gohan awakes in the wilderness to find his tail gone and a new set of clothes on his back. But the puzzled boy has little time to figure out what happened before a group of wild animals try to have him for breakfast! The chase leads Gohan into the depths of an ancient cave, where he meets an old Capsule Corp robot. The robot has lived alone in the cave for over 30 years... and he's not happy to have visitors!",
+    "image": "/path/to/image9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "A New Friend",
+    "summary": "Krillin pulls Yamcha away from a rowdy baseball game to begin training at Korin Tower. Meanwhile, Gohan's adventures in the wilderness continue, as he makes a new dinosaur friend! Gohan is happy to finally have some company. That is, until he gets a harsh reminder... not all dinosaurs are friendly!",
+    "image": "/path/to/image10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Terror on Arlia",
+    "summary": "While Goku runs down Snake Way for a meeting with King Kai, Gohan gets a very important survival lesson from a T-Rex. Meanwhile Vegeta and Nappa head towards Earth but make a quick stop on planet Arlia and become prisoners of the tyrant king who rules the planet. After a brief scuffle with the monster Yeddy, the Arlians realize that the two Saiyans are more for then they can handle as Vegeta and Nappa leave their terrible mark on the planet.",
+    "image": "/path/to/image11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Global Training",
+    "summary": "Gohan is busy with his survival training and spends his day tormenting a clumsy but delicious T-Rex. Tien and Chiaotzu are training across the planet, but their workout is interrupted by a very demanding Launch. Goku tries to find King Kai on Snake Way while Piccolo's power gets out of control with disastrous results.",
+    "image": "/path/to/image12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Goz and Mez",
+    "summary": "After waking up dazed and disoriented, Goku sees a fruit tree. Not one to deny his appetite, Goku helps himself. But watching him are two giant ogres who want nothing more than to use the hero as a play toy! If Goku can defeat their challenges, the ogres vow to show him the way back to Snake Way. But can these two beasts be trusted?",
+    "image": "/path/to/image13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Princess Snake",
+    "summary": "Finally back on Snake Way, Goku comes across a house. Thinking it belongs to the legendary King Kai, Goku believes his amazing journey has ended. But he soon finds himself begin deceived by Princess Snake... who will do anything to keep Goku her prisoner forever!",
+    "image": "/path/to/image14.jpg"
+  }
+]

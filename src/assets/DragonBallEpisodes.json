@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "title": "The Secret of the Dragon Balls",
+      "summary": "Goku’s afternoon of fishing is interrupted by a bossy teenage girl with a red ribbon named Bulma who is determined to get her hands on his most prized possession - a mysterious ball that belonged to his grandfather.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732325862/ep1_guzhqa.png"
+    },
+    {
+      "id": 2,
+      "title": "The Emperor's Quest",
+      "summary": "Goku and Bulma aren’t the only ones looking for Dragon Balls. The little warrior runs into a couple of Emperor Pilaf’s henchmen during his search for a late night snack.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326375/ep2_hqvdqy.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Nimbus Cloud of Roshi",
+      "summary": "Bulma gets annoyed when Goku slows things down to help a lost turtle, but his good deed could speed up their quest to collect the seven Dragon Balls.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326367/ep3_jl3z0p.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Oolong the Terrible",
+      "summary": "Another Dragon Ball is discovered in a small village with a big problem. Before Bulma can claim the fifth magic ball, Goku must do battle with Oolong the Terrible!",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326367/ep4_cvu8er.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Yamcha the Desert Bandit",
+      "summary": "Oolong joins the quest to locate the final two Dragon Balls, but the adventurers are interrupted by a desert dweller with ties to Goku’s past.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326367/ep5_iqpn6o.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Keep an Eye on the Dragon Balls",
+      "summary": "The magic Dragon Balls are sought for many reasons. Oolong and Yamcha want success with women, Bulma wants a hot date, and Goku probably just wants something to eat.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326366/ep6_eoj9ds.jpg"
+    },
+    {
+      "id": 7,
+      "title": "The Ox King on Fire Mountain",
+      "summary": "Bulma’s got a hunch about where to find another Dragon Ball. Unfortunately, it’s guarded by the Ox-King, and he won’t give it up unless he gets something in return.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326365/ep7_ibpghj.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Kamehameha Wave",
+      "summary": "Goku and Chi-Chi are sent to borrow a magic fan from Roshi. When the old master can’t find it, he returns to Fire Mountain with his Kamehameha Wave!",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326365/ep8_q4rmi7.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Boss Rabbit's Magic Touch",
+      "summary": "Bulma’s getting free stuff all over town, but it’s not because she’s so good looking. It seems her outfit reminds the villagers of a bad guy named Boss Rabbit.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326364/ep9_d71gmc.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Dragon Balls are Stolen!",
+      "summary": "As the adventurers were closed in on the seventh and final Dragon Ball after Goku successfully defeated Boss Rabbit, Bulma and Oolong argue over what their wish should be - but it might not even matter.",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326364/ep10_lw8lhb.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Penalty is Pinball",
+      "summary": "Goku, Bulma, and the others momentarily escape their prison only to find themselves trapped in a deadly game of pinball where Emperor Pilaf controls all the balls!",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326364/ep11_dvzy6o.jpg"
+    },
+    {
+      "id": 12,
+      "title": "A Wish to the Eternal Dragon",
+      "summary": "Pilaf demands revenge for his wasted wish, so he puts Oolong and company in a room designed to cook them alive! There’s no way out - unless Goku can release the beast within!",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326364/ep12_xj3evl.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Legend of Goku",
+      "summary": "The Emperor may have captured Goku’s human form, but once the little man takes a look at the moon, nothing - except maybe a pair of scissors - can stop him!",
+      "image": "https://res.cloudinary.com/dpmytaaq5/image/upload/v1732326364/ep13_yo60ye.jpg"
+    }
+  ]
+  
