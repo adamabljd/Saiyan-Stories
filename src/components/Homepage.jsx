@@ -45,6 +45,53 @@ export const Homepage = ({ selectedList }) => {
         };
     }, []);
 
+    // Dynamically load and refresh vignette scripts every 30 seconds
+    useEffect(() => {
+        const scripts = [
+            { domain: "vemtoutcheeg.com", zone: 8558938 },
+            { domain: "vemtoutcheeg.com", zone: 8558968 },
+            { domain: "vemtoutcheeg.com", zone: 8558999 },
+        ];
+
+        const loadScripts = () => {
+            scripts.forEach(({ domain, zone }) => {
+                const script = document.createElement("script");
+                script.innerHTML = `
+                    (function(d,z,s){
+                        s.src='https://'+d+'/400/'+z;
+                        try {
+                            (document.body||document.documentElement).appendChild(s)
+                        } catch(e) {}
+                    })('${domain}',${zone},document.createElement('script'))
+                `;
+                document.body.appendChild(script);
+            });
+        };
+
+        const refreshAds = () => {
+            // Remove existing ad scripts
+            const appendedScripts = document.querySelectorAll("script[src*='vemtoutcheeg.com']");
+            appendedScripts.forEach((script) => script.remove());
+
+            // Load new ad scripts
+            loadScripts();
+        };
+
+        // Initial load
+        loadScripts();
+
+        // Set interval to refresh ads every 30 seconds
+        const interval = setInterval(refreshAds, 30000);
+
+        return () => {
+            // Cleanup: remove scripts and clear the interval
+            clearInterval(interval);
+            const appendedScripts = document.querySelectorAll("script[src*='vemtoutcheeg.com']");
+            appendedScripts.forEach((script) => script.remove());
+        };
+    }, []);
+
+
     return (
         <div className="h-full w-full md:p-1 bg-primary flex flex-col items-center space-y-3 overflow-hidden">
             <audio ref={audioRef} src={chala} preload="auto"></audio>
@@ -59,11 +106,9 @@ export const Homepage = ({ selectedList }) => {
                 <span className="text-third font-dragonL font-bold text-lg">{currentTime}</span>
             </div>
             <div className="flex flex-row justify-between md:space-x-10">
-                <div className="hidden md:block bg-black w-96 h-96"></div>
                 <div className="w-fit">
                     {selectedList === "Dragon Ball" ? <DragonBallList /> : <DragonBallZList />}
                 </div>
-                <div className="hidden md:block bg-black w-96 h-96"></div>
             </div>
         </div>
     )
