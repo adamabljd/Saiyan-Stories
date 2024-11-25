@@ -91,24 +91,23 @@ export const Homepage = ({ selectedList }) => {
     }, []);
 
     useEffect(() => {
-        // Select the ad container by ID
         const adContainer = document.getElementById("themoneytizer-ad");
 
         if (adContainer) {
-            // Add the first script dynamically
-            const script1 = document.createElement("script");
-            script1.src = "//ads.themoneytizer.com/s/gen.js?type=48";
-            script1.async = true;
-            adContainer.appendChild(script1);
+            // Add gen.js script
+            const genScript = document.createElement("script");
+            genScript.src = "//ads.themoneytizer.com/s/gen.js?type=48";
+            genScript.async = true;
 
-            // Add the second script dynamically
-            const script2 = document.createElement("script");
-            script2.src = "//ads.themoneytizer.com/s/requestform.js?siteId=129715&formatId=48";
-            script2.async = true;
-            adContainer.appendChild(script2);
+            // Add requestform.js script
+            const requestScript = document.createElement("script");
+            requestScript.src = "//ads.themoneytizer.com/s/requestform.js?siteId=129715&formatId=48";
+            requestScript.async = true;
+
+            adContainer.appendChild(genScript);
+            adContainer.appendChild(requestScript);
         }
     }, []);
-
 
     return (
         <div className="h-full w-full md:p-1 bg-primary flex flex-col items-center space-y-3 overflow-hidden">
