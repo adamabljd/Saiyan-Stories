@@ -93,7 +93,6 @@ export const Homepage = ({ selectedList }) => {
     }, []);
 
     useEffect(() => {
-        if (leftAdRef.current) {
             // Add the first script dynamically
             const script1 = document.createElement("script");
             script1.src = "//ads.themoneytizer.com/s/gen.js?type=48";
@@ -105,7 +104,7 @@ export const Homepage = ({ selectedList }) => {
             script2.src = "//ads.themoneytizer.com/s/requestform.js?siteId=129715&formatId=48";
             script2.async = true;
             leftAdRef.current.appendChild(script2);
-        }
+        
     }, []);
 
 
