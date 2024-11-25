@@ -9,6 +9,7 @@ export const Homepage = ({ selectedList }) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const [currentTime, setCurrentTime] = useState("0:00");
     const audioRef = useRef(chala);
+    const leftAdRef = useRef(null);
 
 
     const togglePlayPause = () => {
@@ -91,6 +92,22 @@ export const Homepage = ({ selectedList }) => {
         };
     }, []);
 
+    useEffect(() => {
+        if (leftAdRef.current) {
+            // Add the first script dynamically
+            const script1 = document.createElement("script");
+            script1.src = "//ads.themoneytizer.com/s/gen.js?type=48";
+            script1.async = true;
+            leftAdRef.current.appendChild(script1);
+
+            // Add the second script dynamically
+            const script2 = document.createElement("script");
+            script2.src = "//ads.themoneytizer.com/s/requestform.js?siteId=129715&formatId=48";
+            script2.async = true;
+            leftAdRef.current.appendChild(script2);
+        }
+    }, []);
+
 
     return (
         <div className="h-full w-full md:p-1 bg-primary flex flex-col items-center space-y-3 overflow-hidden">
@@ -106,10 +123,12 @@ export const Homepage = ({ selectedList }) => {
                 <span className="text-third font-dragonL font-bold text-lg">{currentTime}</span>
             </div>
             <div className="flex flex-row justify-between md:space-x-10">
+            <div ref={leftAdRef}  className="hidden md:block max-h-96"></div>
                 <div className="w-fit">
                     {selectedList === "Dragon Ball" ? <DragonBallList /> : <DragonBallZList />}
                 </div>
             </div>
+            <div className="hidden md:block max-h-96"></div>
         </div>
     )
 }
